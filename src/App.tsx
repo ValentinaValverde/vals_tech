@@ -1,7 +1,9 @@
+import SplashPage from "./components/SplashPage";
+
 function App() {
   return (
     <>
-      <p>hello world</p>
+      <SplashPage />
     </>
   );
 }
