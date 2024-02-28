@@ -7,8 +7,8 @@ export default function AboutMe() {
         in fullstack applications. Small, fast-paced environments with
         opportunity for growth catch my eye, and I have experience working on
         small teams as well as directly with clients. I am open to work on
-        projects of any size or even test features on a new product! Don't be
-        shy!
+        projects of any size or even test features on a new product! Please
+        reach out, don't be shy!
       </p>
     </>
   );
