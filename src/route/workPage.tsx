@@ -9,9 +9,9 @@
 //   );
 // }
 
-import { FC } from "react";
+// import { FC } from "react";
 
-const WorkPage: FC<null> = () => {
+const WorkPage: React.FC = () => {
   console.log("WORK PAGE HAS LOADED");
 
   return (
