@@ -1,11 +1,5 @@
-import SplashPage from "./components/SplashPage";
-
 function App() {
-  return (
-    <>
-      <SplashPage />
-    </>
-  );
+  return <></>;
 }
 
 export default App;
