@@ -4,20 +4,21 @@ import App from "./App.tsx";
 import "./index.css";
 import Root, { loader as rootLoader } from "./route/root.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import ErrorPage from "./route/errorPage.tsx";
+// import ErrorPage from "./route/errorPage.tsx";
+import WorkPage from "./route/workPage.tsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
-    errorElement: <ErrorPage />,
+    // errorElement: <ErrorPage />,
     loader: rootLoader,
-    // children: [
-    //   {
-    //     path: "something/:somethingID",
-    //     element: <Something />,
-    //   }
-    // ]
+    children: [
+      {
+        path: "work",
+        element: <WorkPage />,
+      },
+    ],
   },
 ]);
 

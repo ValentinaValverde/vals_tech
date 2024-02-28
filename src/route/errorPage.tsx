@@ -1,4 +1,4 @@
-import { useRouteError } from "react-router-dom";
+// import { useRouteError } from "react-router-dom";
 import { FC } from "react";
 import { ErrorType } from "../App.types";
 
@@ -29,6 +29,8 @@ const ErrorPage: FC<ErrorType> = ({ statusText, message }) => {
     </div>
   );
 };
+
+export default ErrorPage;
 
 // or is it (on line 27) this:
 // <i>{error.statusText || error.message}</i>
